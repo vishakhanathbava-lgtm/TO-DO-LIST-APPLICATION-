@@ -1,0 +1,73 @@
+﻿/* Light Theme */
+
+body {
+    background: #f5f7fb;
+    color: #212529;
+    transition: .4s;
+}
+
+.card {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.navbar {
+    transition: .4s;
+}
+
+.btn {
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+/* Dark Theme */
+
+.dark-mode {
+    background: #0f172a !important;
+    color: white !important;
+}
+
+    .dark-mode .card {
+        background: #1e293b;
+        color: white;
+    }
+
+    .dark-mode .navbar {
+        background: #111827 !important;
+    }
+
+    .dark-mode .form-control {
+        background: #1e293b;
+        color: white;
+        border: 1px solid #475569;
+    }
+
+        .dark-mode .form-control::placeholder {
+            color: #cbd5e1;
+        }
+
+    .dark-mode .btn-success {
+        background: #10b981;
+    }
+
+    .dark-mode .btn-danger {
+        background: #ef4444;
+    }
+
+    .dark-mode .btn-primary {
+        background: #3b82f6;
+    }
+
+    .dark-mode .text-muted {
+        color: #cbd5e1 !important;
+    }
+
+    .dark-mode footer {
+        color: white;
+    }

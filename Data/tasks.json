@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "Title": "assignment",
+    "Description": "ehbiuthnio",
+    "DueDate": "2026-08-02T00:00:00",
+    "Priority": "High",
+    "Reminder": true,
+    "IsCompleted": true,
+    "ReminderTime": "13:59",
+    "CreatedDate": "2026-08-02T13:58:36.9359688+05:30",
+    "Category": "Study"
+  },
+  {
+    "Id": 2,
+    "Title": "ppt",
+    "Description": "bwiuejsbtihnoi",
+    "DueDate": "2026-08-02T00:00:00",
+    "Priority": "High",
+    "Reminder": true,
+    "IsCompleted": false,
+    "ReminderTime": "14:00",
+    "CreatedDate": "2026-08-02T13:59:08.1547177+05:30",
+    "Category": "Work"
+  },
+  {
+    "Id": 3,
+    "Title": "vishakha",
+    "Description": "jhiuhiojio",
+    "DueDate": "2026-08-02T00:00:00",
+    "Priority": "Medium",
+    "Reminder": true,
+    "IsCompleted": true,
+    "ReminderTime": "14:27",
+    "CreatedDate": "2026-08-02T14:27:09.272054+05:30",
+    "Category": "Study"
+  },
+  {
+    "Id": 4,
+    "Title": "overdue",
+    "Description": "jbrjbejgn",
+    "DueDate": "2026-08-01T00:00:00",
+    "Priority": "Medium",
+    "Reminder": true,
+    "IsCompleted": false,
+    "ReminderTime": "14:35",
+    "CreatedDate": "2026-08-02T14:34:35.6033579+05:30",
+    "Category": "Work"
+  }
+]
