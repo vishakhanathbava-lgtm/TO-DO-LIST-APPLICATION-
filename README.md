@@ -1,21 +1,19 @@
 # QuizMaster – Online Quiz Management System
 > **Open Source Tools and Frameworks with Python Project**
 
-[![Live Demo - Student](https://img.shields.io/badge/Live_Demo-Student_Portal-4f46e5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://curly-goggles-pjx5jw94j5pj3rwrq-5000.app.github.dev)
-[![Live Demo - Admin](https://img.shields.io/badge/Live_Demo-Admin_Console-e11d48?style=for-the-badge&logo=shield&logoColor=white)](https://curly-goggles-pjx5jw94j5pj3rwrq-5001.app.github.dev)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-QuizMaster_Portal-4f46e5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://online-quiz-application-t1xn.onrender.com)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.1-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 
 ---
 
-## 🌐 Live Application Links
+## 🌐 Live Application Link
 
 | Application | Live URL | Direct Login URL | Demo Credentials |
 | :--- | :--- | :--- | :--- |
-| 🎓 **Student Portal** | [**https://curly-goggles-pjx5jw94j5pj3rwrq-5000.app.github.dev**](https://curly-goggles-pjx5jw94j5pj3rwrq-5000.app.github.dev) | [`/login`](https://curly-goggles-pjx5jw94j5pj3rwrq-5000.app.github.dev/login) | `rahul@gmail.com` / `rahul123` |
-| 🛡️ **Admin Control Center** | [**https://curly-goggles-pjx5jw94j5pj3rwrq-5001.app.github.dev**](https://curly-goggles-pjx5jw94j5pj3rwrq-5001.app.github.dev) | [`/login`](https://curly-goggles-pjx5jw94j5pj3rwrq-5001.app.github.dev/login) | `admin@quizmaster.com` / `admin123` |
+| 🎓 **QuizMaster Portal** | [**https://online-quiz-application-t1xn.onrender.com**](https://online-quiz-application-t1xn.onrender.com) | [`/login`](https://online-quiz-application-t1xn.onrender.com/login) | `rahul@gmail.com` / `rahul123` |
 
-> 💡 **Note**: Make sure Port `5000` and Port `5001` are set to **Public** visibility in your Codespaces **Ports** panel so anyone can access them directly without signing in.
+> 💡 **Note**: Hosted live on Render. Free instances may take ~30-50 seconds to spin up on initial access after periods of inactivity.
 
 ---
 
@@ -234,3 +232,4 @@ erDiagram
 
 ### Q4: How is the database initialized?
 **Answer:** `database.py` contains `init_db()` which uses SQLite `CREATE TABLE IF NOT EXISTS` queries and seeds initial quizzes (Python Basics, Flask Basics, Open Source Fundamentals) along with default admin and student accounts if the database is newly created.
+>>>>>>> 5e135ce (Update live demo links in README to Render URL)
